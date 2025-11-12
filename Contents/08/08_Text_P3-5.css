@@ -1,0 +1,55 @@
+p {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.text {
+    border: 25px solid red;
+    border-style: groove;
+    border-radius: 40px;
+    color: red;
+    font-size: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.image{
+    border: 10px solid blue;
+    border-style: groove;
+    border-radius: 40px;
+    max-width: min-content;
+    max-height: 250px;
+}
+.image img{
+    height: 250px;
+    padding-right: -100px;
+    border-radius: 35px;
+}
+.background_image{
+    position: absolute;
+}
+/* repeat */
+/* body {
+    background-repeat: repeat;
+} */
+
+/* repeat-x */
+/* body {
+    background-repeat: repeat-x;
+} */
+
+/* repeat-y */
+/* body {
+    background-repeat: repeat-y;
+} */
+
+/* top */
+/* body {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top;
+} */
+
+/* left bottom */
+/* body {
+    background-position: left bottom;
+} */
+
+/* border-style */

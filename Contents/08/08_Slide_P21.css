@@ -1,0 +1,9 @@
+p {
+    font-size: 100px;
+}
+@media (max-width: 768px) {
+    /* Styles that are applied when the screen width is 768px or less */
+    p {
+        font-size: larger;
+    }
+}

@@ -1,0 +1,36 @@
+body{
+    background-color: gray;
+}
+p span.cancel {
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.emphasis {
+    text-decoration: underline;
+}
+
+li.square {
+    list-style: square;
+}
+
+li.nothing {
+    list-style: none;
+}
+
+p.height1 {
+    line-height: 1;
+    background-color: aqua;
+    max-width: fit-content;
+    border-radius: 5px;
+}
+
+p.height1point5 {
+    line-height: 1.5;
+    background-color: green;
+    max-width: fit-content;
+    border-radius: 5px;
+}
